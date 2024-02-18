@@ -1,0 +1,41 @@
+.post-card-container {
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+	width: 31%;
+	min-height: 250px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	padding: 25px 20px;
+	border-radius: 10px;
+}
+
+.post-username {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+h4:where(.css-dev-only-do-not-override-1rqnfsa).ant-typography {
+	font-size: 24px;
+	color: #412b2b;
+}
+
+.post-body {
+	text-align: justify;
+}
+
+:where(.css-dev-only-do-not-override-1rqnfsa).ant-divider-horizontal {
+	margin: 16px 0;
+}
+
+.comments-container {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.no-comments {
+	text-align: left;
+	color: red;
+}

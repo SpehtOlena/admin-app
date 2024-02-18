@@ -1,0 +1,22 @@
+.profile-container {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	align-items: flex-start;
+	justify-content: space-between;
+	margin: 12vh auto;
+}
+
+.profile-main {
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+	align-items: center;
+}
+
+.profile_form {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	padding: 50px;
+	border-radius: 10px;
+
+}
