@@ -1,0 +1,39 @@
+.user-card {
+	display: flex;
+	flex-direction: row;
+	min-height: 250px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	padding: 25px 20px;
+	border-radius: 10px;
+	text-align: center;
+	width: 300px;
+	cursor: pointer;
+}
+
+.user-card img {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.one-user-card {
+	display: flex;
+	flex-direction: row;
+	min-height: 600px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	padding: 25px 20px;
+	border-radius: 10px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	width: 500px;
+	cursor: pointer;
+}
+
+.one-user-card img {
+	width: 450px;
+	margin-bottom: 30px;
+}
+
+.one-user-card h1 {
+	text-transform: uppercase;
+}
