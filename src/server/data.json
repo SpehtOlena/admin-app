@@ -197,34 +197,34 @@
       "id": "2"
     },
     {
-      "username": "Fedir",
-      "photo": "https://robohash.org/Yoooniekkke.pnset=set4",
-      "password": "Pa$$w0rd!",
-      "id": "4"
-    },
-    {
       "username": "Igor",
       "photo": "https://robohash.org/Uuneeekkke.pnset=set4",
       "password": "Pa$$w0rd!",
-      "id": "cb4f"
+      "id": "4"
     },
     {
       "username": "Denis",
       "photo": "https://robohash.org/Unieqee.pnset=set4",
       "password": "Pa$$w0rd!",
-      "id": "ec7d"
+      "id": "5"
     },
     {
       "username": "Roman",
       "photo": "https://robohash.org/Yoonyqeee.pngset=set4",
       "password": "Pa$$w0rd!",
-      "id": "c381"
+      "id": "6"
     },
     {
-      "username": "5",
-      "photo": "https://robohash.org/Yooniekee.pnset=set4",
+      "username": "TEST2",
+      "photo": "https://robohash.org/Uuneeequee.pnset=set4",
       "password": "Pa$$w0rd!",
-      "id": "f1c3"
+      "id": "9"
+    },
+    {
+      "username": "Igor",
+      "photo": "https://robohash.org/Uuneeekkke.pnset=set4",
+      "password": "Pa$$w0rd!",
+      "id": "11"
     }
   ]
 }

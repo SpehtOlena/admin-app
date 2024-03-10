@@ -1,5 +1,5 @@
 import axios from "axios";
-import { CREATE_ITEM, DELETE_ITEM, EDIT_ITEM, GET_DATA, GET_ITEM } from "./types";
+import { CREATE_ITEM, DELETE_ITEM, EDIT_ITEM, GET_DATA, GET_ITEM, USER_ERROR } from "./types";
 
 const URL = 'http://localhost:3000/';
 
@@ -63,7 +63,20 @@ export function axiosRequest(data, namePage, request) {
 							payload: response.data
 						})
 					})
+					.catch((error) => {
+						dispatch({
+							type: USER_ERROR,
+							payload: { message: error.message, code: error.code, status: error.status }
+						})
+					})
 			}
 		}
+	}
+}
+
+export function clearError() {
+	return {
+		type: USER_ERROR,
+		payload: null
 	}
 }

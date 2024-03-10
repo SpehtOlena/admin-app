@@ -1,8 +1,9 @@
-import { CREATE_ITEM, DELETE_ITEM, EDIT_ITEM, GET_DATA, GET_ITEM } from "../types"
+import { CREATE_ITEM, DELETE_ITEM, EDIT_ITEM, GET_DATA, GET_ITEM, USER_ERROR } from "../types"
 
 const initialState = {
 	data: [],
-	item: {}
+	item: {},
+	error: null
 }
 
 export default function usersReducer(state = initialState, action) {
@@ -31,6 +32,9 @@ export default function usersReducer(state = initialState, action) {
 			return {
 				...state, data: state.data.filter(value => value.id !== action.payload.id)
 			}
+		}
+		case USER_ERROR: {
+			return { ...state, error: action.payload }
 		}
 		default:
 			return state
